@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "Kaushan Script";
+  src: url(../fonts/KaushanScript-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+h2 h3 {
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  font-family: 2rem;
+}
+h3 {
+  font-family: 0.93rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+p {
+  color: #999999;
+}
+header {
+  width: 2800px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  box-shadow: 0 3px 10px #888;
+  background-color: #fff;
+}
+.logo {
+  color: #95e1d3;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.menu {
+  list-style: none;
+  display: flex;
+}
+.menu li {
+  margin-left: 50px;
+}
+main {
+  margin-top: 90px;
+}
+a {
+  text-decoration: none;
+  color: #95e1d3;
+}
+.subtitle {
+  display: flex;
+  justify-content: center;
+  font-family: "Kaushan Script";
+  font-size: 1.44rem;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+hr {
+  width: 50px;
+  height: 2px;
+  background-color: red;
+  border: 0;
+  margin: 0 auto;
+}
+
+.service-item > img {
+  width: 40px;
+  height: 30px;
+  margin-right: 30px;
+}
+
+.service-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 100px;
+}
+
+.section-title {
+  margin-bottom: 70px;
+}
+
+.service-item {
+  display: flex;
+  width: 340px;
+  height: 70px;
+}
+.text {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.line {
+  margin-bottom: 50px;
+}
+
+.members {
+  display: flex;
+}
+.team-member {
+  padding-left: 20px;
+  padding-right: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.button {
+  color: white;
+  background-color: #95e1d3;
+  font-family: "Montserrat", sans-serif;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
