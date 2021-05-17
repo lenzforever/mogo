@@ -238,11 +238,7 @@ a {
    text-decoration: none;
   }
    
-input:active,
-input:focus {
-    outline: none;
-}
-input::placeholder {
+.placeholder {
     font-style: italic;
     font-weight: 300;
     font-size: 14px;
